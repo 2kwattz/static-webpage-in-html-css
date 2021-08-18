@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+    background-color: rgb(66, 56, 56);
+    background-image: url('https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_960_720.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_header{
+
+    font-family: 'Overpass', sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.678);
+    width: 100%;
+}
+
+.top_header h1{
+
+    font-size: 34px;
+}
+
+.navbar_topright{
+
+    display: flex;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.navbar_topright a{
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 15px;
+}
+
+.navbar_topright ul{
+    list-style-type: none;
+
+}
+
+.navbar_topright li{
+
+
+}
+
+.logo_title_top{
+
+}  
+
+.main_container{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.main_container h2{
+
+    color: rgb(255, 255, 255);
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.main_container h3{
+
+    color: rgb(255, 255, 255);
+    font-family: 'Overpass', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    text-align: center;
+
+
+
+}
+
+.btn{
+
+    color: black;
+    background-color: aliceblue;
+    font-family: 'Overpass', sans-serif;
+    padding: 10px;
+    font-size: 13px;
+    display: inline-block;
+    width: fit-content;
+    border: 0px transparent;
+    height: 50px;
+}
+
+.secondary_container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 450px;
+    background-color: rgb(141, 202, 255);
+    font-family: 'Overpass', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary_container span{
+
+    font-size: 34px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+
+} 
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 40px;
+}
+
+
+
